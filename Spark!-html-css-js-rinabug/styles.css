@@ -1,0 +1,100 @@
+/* Global styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Green color theme */
+.green-bg {
+    background-color: #4caf50;
+}
+
+.green-text {
+    color: #4caf50;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background-color: #4caf50;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+/* Main content */
+.content {
+    padding: 2em;
+}
+
+/* Call to action */
+.cta {
+    padding: 1em;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.cta a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border: 1px solid #4caf50;
+    background-color: #333;
+    /* Add something here so that there is a transition on the background color    */
+}
+
+/* Add something hear for changing the color on hover */
+.button{
+    background-color: #333;
+    color: white;
+    transition: 2s;
+}
+
+.button:hover{
+    background-color: #4caf50;
+    cursor: pointer;
+}
+
+
+/* Footer */
+footer {
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+
+/* Author Info */
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* space between image and text */
+}
+
+.author-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* make the image circular */
+    object-fit: cover;
+    /* Add CSS to create a border around the author image   */
+    border: 5px solid #4caf50;
+}
+
+.btn-logo {
+    /*Add some CSS to control the height and width of the logo */
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em; /* Adds some space between the logo and the button text */
+    vertical-align: middle; /* Aligns the logo with the text */
+}
